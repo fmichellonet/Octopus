@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octopus.WebApp", "Octopus.W
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Octopus.Db", "Octopus.Db\Octopus.Db.sqlproj", "{CC458230-2C3D-40DB-9BC7-602C694C4595}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octopus.Batch", "Octopus.Batch\Octopus.Batch.csproj", "{591952B9-00CB-4FB3-9AA6-7DB6ABD99DDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{CC458230-2C3D-40DB-9BC7-602C694C4595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC458230-2C3D-40DB-9BC7-602C694C4595}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC458230-2C3D-40DB-9BC7-602C694C4595}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{591952B9-00CB-4FB3-9AA6-7DB6ABD99DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591952B9-00CB-4FB3-9AA6-7DB6ABD99DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591952B9-00CB-4FB3-9AA6-7DB6ABD99DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591952B9-00CB-4FB3-9AA6-7DB6ABD99DDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
